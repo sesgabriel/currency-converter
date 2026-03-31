@@ -5,7 +5,7 @@ from time import sleep
 
 def menu():
     while True:
-        print('CURRENCY EXCHANGE FROM KENYO')
+        print('CURRENCY CONVERTER')
         try:
             user_coin = str(input('type the coin you want to exchange or type quit/exit (ex: USD): ')).upper().strip()
             if user_coin == 'QUIT' or user_coin == 'EXIT':
